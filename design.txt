@@ -1,0 +1,21 @@
+Design
+=========
+
+Partition to device map
+--------------------------
+Ring has four tiers structure like region/zone/node/device.
+Partition: 2**partition_length
+Support query on specific account or container or object to get mapped position visuals.
+Reference Sample: http://bl.ocks.org/mbostock/5944371
+
+Sunburst Partition
+--------------------------
+Represent Ring structrue and storage device realtime status (offline, warning etc.)
+Refernece Sample: http://bl.ocks.org/mbostock/4063423
+
+Partition Chord Diagram
+--------------------------
+Each node has a set of partitions which has more replias on other nodes.
+use node->node 2D matrix to represent partition relaship.
+Refernece Sample: http://bl.ocks.org/mbostock/4062006
+
