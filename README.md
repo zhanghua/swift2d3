@@ -1,4 +1,4 @@
 swift2d3
 ========
 
-Visualize Swift ring data structure and network topology by using d3.js
+Visualize Swift ring data structure, network topology and mapping b/w partition and storage nodes by using d3.js
